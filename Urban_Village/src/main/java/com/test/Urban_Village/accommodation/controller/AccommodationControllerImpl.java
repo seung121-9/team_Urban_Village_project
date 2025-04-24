@@ -266,8 +266,8 @@ public class AccommodationControllerImpl implements AccommodationController {
 	@Autowired
 	WishListService wishListService;
 
-	private static final String TEMP_DIR = "D:\\image\\temp\\";
-	private static final String DEST_DIR = "D:\\image\\addImage\\";
+	private static final String TEMP_DIR = "F:\\seungpil\\kgbank - Fintech Project\\image\\temp\\";
+	private static final String DEST_DIR = "F:\\seungpil\\kgbank - Fintech Project\\image\\addImage\\";
 	private static final String ACCOMMODATION_IMAGE_REPO = "D:\\image\\addImage\\"; // 업데이트 시 이미지 저장 경로
 	
 	@Override

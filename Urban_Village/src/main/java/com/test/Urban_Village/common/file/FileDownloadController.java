@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class FileDownloadController {
-private static final String ACCOMMODATION_REPO = "D:\\image\\addImage";
-private static final String ACCOMMODATION_REPO1 = "D:\\image\\reviewImage";
+private static final String ACCOMMODATION_REPO = "F:\\seungpil\\kgbank - Fintech Project\\image\\addImage";
+private static final String ACCOMMODATION_REPO1 = "F:\\seungpil\\kgbank - Fintech Project\\image\\reviewImage";
     @RequestMapping("/download.do")
     public void download(@RequestParam("imageFileName") String imageFileName,
                          @RequestParam("accommodation_id") String accommodation_id,
